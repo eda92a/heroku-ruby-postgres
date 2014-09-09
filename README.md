@@ -13,7 +13,7 @@ $ git clone git@github.com:heroku/ruby-getting-started.git
 $ cd ruby-getting-started
 $ bundle install
 $ rake db:create db:migrate
-$ foreman start web
+$ ./foreman start web
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
